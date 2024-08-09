@@ -1,0 +1,27 @@
+.admin-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  
+  .admin-form--submit {
+    width: 34%;
+  }
+  
+  .admin-form > label {
+    width: 15%;
+  }
+  
+  .admin-form > input:not(.admin-form--submit),
+  .admin-form > div {
+    width: 75%;
+  }
+  
+  .admin-form input {
+    cursor: pointer;
+  }
+  
+  .admin-form textarea {
+    width: 100%;
+  }

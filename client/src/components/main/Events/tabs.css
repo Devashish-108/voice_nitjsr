@@ -1,0 +1,89 @@
+/* Remove browser defaults */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style App.js wrapper */
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Subheading {
+  width: 100vw;
+  height: auto;
+  background-color: inherit;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 6px 9px rgba(0, 0, 0, 0.1),
+  0px 9px 13px rgba(0, 0, 0, 0.1);
+  margin-left: -20px;
+  padding: 2px;
+}
+
+/* Tab Container */
+.Tabs {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  background: #ffffff;
+  margin: 3.5rem auto 1.5rem;
+  padding: 2rem 1rem;
+  color: #023047;
+  border-radius: 2rem;
+
+  @media (max-width: 769px) {
+    padding: 2rem 0;
+  }
+}
+
+/* Tab Navigation */
+ul.nav {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ffb703;
+  border-radius: 2rem;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+ul.nav li {
+  width: 50%;
+  padding: 8px;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+
+ul.nav li:nth-child(2) {
+  border-radius: 0;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+ul.nav li:hover {
+  background: #02304747;
+}
+
+ul.nav li.active {
+  background: #023047;
+  color: #ffffff;
+}
+
+/* SubEvents Tab Styles */
+.SubEvents p {
+  font-size: 2rem;
+  text-align: center;
+}

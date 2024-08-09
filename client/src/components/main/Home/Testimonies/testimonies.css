@@ -1,0 +1,13 @@
+.testimonies-heading {
+  text-align: center;
+}
+
+.testimonies-carousel {
+  /* border: solid 1px #023047; */
+  color: #023047;
+  border-radius: 5px;
+}
+
+.carousel-inner {
+  height: 620px;
+}

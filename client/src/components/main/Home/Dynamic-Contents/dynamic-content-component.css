@@ -1,0 +1,15 @@
+.dynamic-content-component {
+  padding: 0px 20px 30px;
+}
+.dynamic-content-component-child {
+  margin-bottom: 10px;
+  overflow: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.dynamic-content-component-xlsx {
+  max-height: 400px;
+}

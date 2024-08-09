@@ -1,0 +1,55 @@
+.admin-main-component {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6fcfc;
+}
+.admin-main-component .admin-actions-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.admin-main-component .admin-actions-div:active {
+  border-color: transparent;
+}
+.admin-section-link,
+.edit-profile-button,
+.edit-profile-button:focus {
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: bolder;
+  background-color: #023047;
+  color: #ffb703;
+  border-color: #ffb703;
+  box-shadow: none !important;
+}
+
+.edit-profile-button,
+.edit-profile-button:focus {
+  width: 200px;
+  height: 40px;
+}
+
+.admin-section-link:hover,
+.edit-profile-button:hover {
+  color: #023047;
+  background-color: #ffb8037f;
+  transition: all 0.25s ease-out;
+  border-color: #ffb8037f;
+}
+.admin-section-link:active,
+.admin-section-link:focus {
+  outline: none;
+}
+.admin-section-container {
+  min-height: 450px;
+}
+
+.selected {
+  color: #023047;
+  background-color: #ffb703;
+  transition: all 0.25s ease-out;
+  border-color: #ffb703;
+  outline: none;
+}

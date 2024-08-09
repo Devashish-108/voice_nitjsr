@@ -1,0 +1,74 @@
+.welcome-slider {
+    flex: 1 1 15vw;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.welcome-slider .dynamic-images {
+    width: 43vw;
+    height: 33vw;
+    box-shadow: 5px 10px 12px rgb(94 125 115);
+    transition: background-image 2s ease-in-out;
+}
+
+#intro .slider-logo {
+  width: 10vw;
+  margin-left: -30px;
+}
+
+@media (max-width: 1080px) {
+  .welcome-slider {
+    flex: 1 1 15vw;
+    margin: 50px
+  }
+
+  .welcome-slider .dynamic-images {
+    height: 55vw;
+    min-width: 90vw;
+  }
+}
+
+/* Blockquote CSS */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+blockquote{
+  font-size: 0.85vw;
+  margin:2rem 3rem 2rem 3rem !important;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #023047;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #023047 ;
+  line-height:1.6;
+  position: relative;
+  background: #f4eac2;
+}
+
+@media (max-width: 1080px) {
+  blockquote{
+    margin: 2rem 3rem 2rem -2rem !important;
+  }
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#023047;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}

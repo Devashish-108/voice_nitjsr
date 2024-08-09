@@ -1,0 +1,60 @@
+.events-container {
+    background-color: #ffb703;
+    box-shadow: 5px 10px 12px rgba(131, 132, 133, 0.884);;
+    min-height: 300px;
+    padding: 25px;
+    text-align: center;
+}
+
+.events-content {
+    position: relative;
+    color: #023047;
+    /* animation: moving 5s infinite; */
+}
+
+div a {
+    color: #023047;
+    text-decoration: none;
+}
+
+@keyframes moving {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 170px;
+    }
+}
+
+.blogs-container {
+    margin-top: 40px;
+    background-color: #ffb703;
+    box-shadow: 5px 10px 12px rgba(131, 132, 133, 0.884);;
+    min-height: 300px;
+    padding: 25px;
+    text-align: center;
+}
+
+.blogs-content {
+    position: relative;
+    /* animation: moving 5s infinite; */
+}
+
+.blogs-content p {
+    margin-bottom: 5px;
+    color: #023047;
+}
+
+.right-panel-statistics {
+    width: 100%;
+    background: #ffb703;
+    margin-top: 100px;
+    padding: 50px;
+    color: #023047;
+    box-shadow: 5px 10px 12px rgba(131, 132, 133, 0.884);
+}
+
+.statistics h1 {
+    width: 115px;
+}

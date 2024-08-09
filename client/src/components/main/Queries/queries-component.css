@@ -1,0 +1,17 @@
+.queries-message {
+  cursor: pointer;
+}
+.queries-details-container {
+  height: 100%;
+  padding: 10%;
+}
+.queries-details-title {
+  font-weight: bold;
+}
+.queries-parent-container {
+  font-size: 25px;
+  padding: 0px 16px;
+  width: 80vw;
+  margin-left: 10vw;
+  font-family: "Dongle", sans-serif;
+}

@@ -1,0 +1,67 @@
+.testimonies--container {
+  padding: 20px;
+  background-color: #fff0ca;
+  font-weight: bold;
+}
+.testimonies--form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.testimonies--submit {
+  width: 34%;
+}
+
+.testimonies--form > label {
+  width: 15%;
+}
+
+.testimonies--form > input:not(.testimonies--submit),
+.testimonies--form > div {
+  width: 75%;
+}
+
+.testimonies--form input {
+  cursor: pointer;
+}
+
+.testimonies--form textarea {
+  width: 100%;
+}
+
+.testimonies-show-container {
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonies-card {
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: rgb(2, 48, 71) 0px 1px 7px;
+  margin-bottom: 15px;
+  padding: 6px;
+}
+.list-heading {
+  background-color: darkorange;
+  font-weight: bold;
+}
+
+b {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Add testimonies */
+.testimony-add-image-preview {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #f8ba1f;
+  margin: 10px 0px 0px;
+}

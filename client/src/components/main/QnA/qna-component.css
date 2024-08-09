@@ -1,0 +1,35 @@
+.qna-message {
+  cursor: pointer;
+  color: blue;
+}
+.qna-details-container {
+  height: 50%;
+  padding: 5%;
+}
+.qna-details-title {
+  font-weight: bold;
+  font-size: 28px;
+}
+.qna-details-2button {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-right: 1rem;
+}
+.qna-details-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.qna-button {
+  width: 8rem;
+  height: 2.8rem;
+  display: flex;
+  justify-content: center;
+}
+.qna-button-icon {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}

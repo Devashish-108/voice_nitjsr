@@ -1,0 +1,100 @@
+.admin-blogs-container {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    padding: 5px;
+    justify-content: center;
+    min-height: 55vh;
+}
+
+.admin-blogs-container .view-panel {
+    background-color: #fff0ca;
+    display: flex;
+    flex: 2 1 500px;
+    padding: 10px;
+}
+.admin-blogs-container .view-panel .admin-blogs-content-container {
+    display: flex;
+    flex-direction: column;
+    font-family: Quicksand,sans-serif;
+    width: 100%;
+}
+.admin-blogs-content-container .admin-blogs-content-item{
+    background-color: inherit;
+    box-shadow: 0 1px 7px #023047;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 6px;
+    width: 100%;
+}
+.admin-blogs-content-container .list-heading {
+    background-color: #ff8c00;
+    font-weight: 700;
+    height: fit-content;
+}
+
+.admin-blogs-tabs-panel {
+    background-color: #8ecae6;
+    display: flex;
+    flex: 1 1 150px;
+    flex-direction: column;
+    padding: 5px;
+}
+.admin-blogs-tabs-panel .admin-blogs-tab {
+    box-shadow: 0 1px 10px #023047;
+    cursor: pointer;
+    font-family: Ubuntu,sans-serif;
+    font-size: 1em;
+    margin: 8px 5px;
+    padding: 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.admin-blogs-tabs-panel .admin-blogs-tab:hover{
+    color: azure;
+    background-color: rgb(35, 101, 155);
+    transition: all 0.3s ease-in;
+}
+
+/* Blog Requests Css */
+
+.blog-request-message {
+    cursor: pointer;
+    color: blue;
+  }
+  .blog-request-details-container {
+    height: 50%;
+    padding: 5%;
+  }
+  .blog-request-details-title {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .blog-request-details-2button {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 1rem;
+  }
+  .blog-request-details-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .blog-request-button {
+    width: 8rem;
+    height: 2.8rem;
+    display: flex;
+    justify-content: center;
+  }
+  .blog-request-button-icon {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+  }
+  .admin-blogs-container .rdt_TableRow {
+    font-size: 15px !important;
+  }

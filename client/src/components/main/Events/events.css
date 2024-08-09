@@ -1,0 +1,92 @@
+.event-container .main-event-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 0 0 300px;
+  padding: 3px;
+  border-radius: 5px;
+  border: solid 1px #023047;
+  background-color: #ffb703;
+  margin: 10px 0;
+}
+@media (min-width: 786px) {
+  .event-items-holder {
+    flex-direction: row;
+    justify-items: flex-start;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    padding-top: 30px;
+    font-family: "Quicksand", sans-serif;
+  }
+}
+@media (max-width: 786px) {
+  .event-details-main {
+    width: 95vw;
+  }
+  .event-items-holder {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+    padding-top: 30px;
+    font-family: "Quicksand", sans-serif;
+  }
+}
+
+.main-event-card img {
+  height: 450px;
+  margin: 5px auto;
+  border: solid 1px #023047;
+}
+.main-event-card p {
+  font-family: "Ubuntu";
+  font-weight: bolder;
+}
+.main-event-card button {
+  background-color: #023047;
+  color: #ffb703;
+  height: 35px;
+  padding: 3px;
+  border: none;
+  border-radius: 3px;
+  width: 200px;
+  margin: auto;
+}
+.main-event-card button:hover {
+  background-color: #ffe8ae;
+  border: solid 1px #023047;
+  color: #023047;
+  transition: all 0.3s ease-in;
+}
+.event-details-main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 30px;
+  min-height: 50vh;
+  max-width: 85vw;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.event-details-main .event-detail-child {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 400px;
+}
+.event-image-div {
+  padding: 10px;
+}
+.event-details-main .event-detail-child img {
+  height: auto;
+  padding: 2px;
+  border: solid 1px #023047;
+}
+.event-details-main .event-details-text {
+  flex: 2 1 400px !important;
+  font-family: "Ubuntu";
+  padding: 20px;
+  align-items: center;
+  background-color: #023047;
+  color: #ffb703;
+}

@@ -1,0 +1,11 @@
+.money-summary {
+  font-family: "Quicksand", sans-serif;
+}
+.finance-table-div {
+  flex: 1 1 400px;
+}
+.finance-parent-container {
+  font-size: 25px;
+  padding: 0px 16px;
+  font-family: "Dongle", sans-serif;
+}

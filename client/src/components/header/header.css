@@ -1,0 +1,117 @@
+.header-navbar {
+  position: sticky !important;
+  top: 0;
+  z-index: 10;
+  margin-left: -20px;
+  width: 100vw;
+  justify-content: space-between !important;
+  padding-left: 35px;
+  padding-right: 20px;
+  background-color: #023047 !important;
+}
+@media (min-width: 992px) {
+  .header-navbar {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+}
+@media (max-width: 786px) {
+  .navbar-brand img {
+    max-width: 60px;
+    height: auto !important;
+  }
+}
+.navbar-toggler {
+  background-color: #ffb703 !important;
+  margin-right: 5px;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none !important;
+  background-color: #219ebc !important;
+}
+
+.navbar-nav {
+  align-items: baseline !important;
+}
+.right-menu {
+  align-content: flex-end;
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+.header-logo img {
+  height: 70px;
+}
+.header-nav-link {
+  padding: 6px 12px;
+  margin: 4px !important;
+  font-family: "Ubuntu";
+  text-decoration: none;
+  color: #ffb703;
+  font-size: 1em;
+  font-weight: bolder;
+}
+.header-nav-link:hover {
+  border-radius: 5px;
+  background-color: #054d71;
+  color: #ffb703;
+  transition: all 0.25s ease-in-out;
+}
+.btn-outline-primary .header-nav-button {
+  border-radius: 5px;
+  margin: 5px !important;
+  border: 1px solid #ffb703;
+}
+.header-nav-button:hover {
+  color: #023047;
+  background-color: #ffb703;
+  transition: all 0.2s ease-in-out;
+}
+
+#dropdown-autoclose-true {
+  text-decoration: none;
+  color: #ffb703;
+}
+.dropdown-item {
+  padding: 0px !important;
+  display: flex !important;
+  align-content: stretch;
+}
+.navbar-nav .dropdown-menu {
+  background-color: #219ebc;
+}
+.dropdown-item > a.dropdown-link {
+  padding: 2px;
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  color: #023047;
+}
+.dropdown-item > a.dropdown-link:hover {
+  color: #023047;
+  background-color: #ffb703 !important;
+  transition: all 0.2s ease-in;
+}
+.dropdown-item > a.dropdown-link:active {
+  background-color: rgb(7, 67, 116) !important;
+}
+#logout-btn-div:hover,
+#logout-btn-div:active {
+  background: none !important;
+}
+#logout-btn-div a {
+  width: 100% !important;
+}
+#logout-btn-div a {
+  width: 100% !important;
+}
+.navbar-brand {
+  margin-left: var(--bs-navbar-brand-margin-end);
+  background-color: #ffb703;
+  border-radius: 15px;
+}
+
+.login-dropdown {
+  left: -50% !important;
+}

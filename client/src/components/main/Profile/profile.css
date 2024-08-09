@@ -1,0 +1,96 @@
+#profile-container {
+  display: flex;
+  min-height: 200px;
+  max-width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: azure;
+  font-family: "Quicksand", sans-serif;
+}
+.profile-summary {
+  flex: 1 2 200px;
+  display: flex;
+  flex-direction: column;
+}
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  flex: 2 1 300px;
+  background-color: rgb(252, 252, 252);
+}
+#details-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#details-container .edit-profile-button {
+  max-width: 170px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 5px;
+}
+#editProfileForm {
+  display: flex;
+  flex-direction: column;
+}
+#profile-image {
+  min-width: 150px;
+  max-width: 200px;
+  padding: 3px;
+  border: solid 4px rgb(122, 190, 250);
+  border-radius: 50%;
+  align-self: center;
+  margin-bottom: 18px;
+}
+.pic-input-div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.pic-input-div .pic-input {
+  display: none;
+  width: 100px;
+  height: 100px;
+}
+label[htmlFor="img"] {
+  content: url("../../../assets/img/edit.svg");
+  transform: scale(0.4);
+  transform-origin: bottom;
+  display: inline-block;
+  background: rgba(122, 190, 250, 0.3);
+  border: 1px solid rgb(104, 198, 252);
+  border-radius: 50%;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+  background: rgb(122, 190, 250);
+  margin-left: 3px;
+}
+label[htmlFor="img"]:hover {
+  background-color: rgb(180, 227, 255);
+}
+#profile-image-upload-button {
+  display: none;
+}
+.editProfileFormDivs {
+  align-items: baseline;
+}
+.strong-label {
+  flex: 0 0 150px;
+}
+#reset-password-btn {
+  width: 60%;
+  margin: auto;
+}

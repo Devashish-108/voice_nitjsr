@@ -1,0 +1,9 @@
+.flickr-component-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.flickr-component-container img {
+  border: 1px solid aliceblue;
+}

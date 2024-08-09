@@ -1,0 +1,11 @@
+div #container {
+    height: 50vh;
+    background: inherit;
+    text-align: center;
+}
+div #container h3 {
+    margin-top: 10vh;
+}
+div #container input {
+    margin-left: 4.5vw;
+}

@@ -1,0 +1,10 @@
+.UnderConstructionMsg {
+    background-color: #ff1654;
+    text-align: center;
+    color: #ffffff;
+    position: sticky;
+    top: 0px;
+    padding: 5px 0px;
+    /* width: 100vw; */
+    /* margin-left: -20px; */
+}
